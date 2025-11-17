@@ -6,7 +6,7 @@ export default defineConfig(({ command }) => ({
   base: '/goit-advancedjs-hw-01/',
   define: { [command === 'serve' ? 'global' : '_global']: {} },
 
-  root: '.',
+  root: 'src',
 
   server: {
     open: '/index.html',
@@ -15,9 +15,9 @@ export default defineConfig(({ command }) => ({
   build: {
     sourcemap: true,
     rollupOptions: {
-      input: glob.sync('./*.html'),
+      input: glob.sync('./src/*.html'),
     },
-    outDir: 'dist',
+    outDir: '../dist',
     emptyOutDir: true,
   },
 

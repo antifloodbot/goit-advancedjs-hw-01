@@ -1,4 +1,8 @@
-// 1. Масив зображень
+import '../css/styles.css';
+import throttle from 'lodash.throttle';
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 const images = [
   {
     preview:
@@ -65,11 +69,6 @@ const images = [
   },
 ];
 
-// 2. Імпорт SimpleLightbox (через npm!)
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
-
-// 3. Створення розмітки
 const gallery = document.querySelector('.gallery');
 
 const markup = images

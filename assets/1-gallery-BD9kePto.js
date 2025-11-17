@@ -1,4 +1,4 @@
-import{c as W,g as R}from"./_commonjsHelpers-Brv8aHs7.js";var L={};/*!
+import{c as W,g as R}from"./index-DBQzxvsv.js";var L={};/*!
 	By André Rinas, www.andrerinas.de
 	Documentation, www.simplelightbox.com
 	Available for use under the MIT License
@@ -16,4 +16,4 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         </a>
       </li>
     `).join("");_.innerHTML=z;new F(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250});
-//# sourceMappingURL=1-gallery-ClacE42Q.js.map
+//# sourceMappingURL=1-gallery-BD9kePto.js.map
